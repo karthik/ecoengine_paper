@@ -1,0 +1,14 @@
+all: pdf word md
+
+ 
+pdf:
+	Rscript -e "library(rmarkdown); render('ecoengine_paper.Rmd', quiet = TRUE)"
+
+word:
+	Rscript -e "library(rmarkdown); render('ecoengine_paper.Rmd', output_format = 'word_document', quiet = TRUE)"
+
+md:
+	Rscript -e "library(rmarkdown); render('ecoengine_paper.Rmd', output_format = 'md_document', quiet = TRUE)"
+
+clean:
+	rm -rf ecoengine_paper_cache .Rhistory

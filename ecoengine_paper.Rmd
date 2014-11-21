@@ -1,0 +1,90 @@
+---
+layout: 12pt,preprint
+title: "Accessing biodiversity records from the ecoengine data repository"
+author:
+  - name: Karthik Ram
+    affiliation: ropensci,bids
+    email: karthik.ram(at)gmail.com
+    footnote: Corresponding author
+  - name: Falk Schuetzenmeister
+    affiliation: bids
+address:
+  - code: ropensci
+    address: | 
+      The rOpenSci project
+      3101 Valley Life Sciences Building,
+      University of California,
+      Berkeley, California 94720-3160 USA
+  - code: bids
+    address: | 
+      Berkeley Institute for Data Science,
+      Doe 190,
+      University of California, Berkeley,
+      Berkeley, CA 94720
+
+abstract: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+
+bibliography: components/references.bib
+csl: components/ecology.csl
+documentclass: components/elsarticle
+
+## rmarkdown render options
+output:
+  pdf_document:
+    fig_caption: true
+    template: components/elsarticle.latex
+  word_document:
+    fig_caption: true
+
+---
+
+
+```{r settings, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  error = FALSE,
+  echo = FALSE,
+  tidy = FALSE
+)
+```
+
+\newpage
+
+
+Introduction
+----------------
+Internal notes: Cite from Rod Page's intro on why long-term archiving of biodiversity records is really important.
+
+
+
+
+Reproducibility statement
+--------------------------
+This research project was run on ...
+All the data are archived at this DOI on figshare.
+All the dependencies are avilable here.
+And here is the docker file to get the exact same environment.
+
+
+Acknowldgements
+--------------------------
+
+
+
+References
+-------------
+
