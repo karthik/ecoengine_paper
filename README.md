@@ -1,13 +1,13 @@
 
-# AntWeb paper
+# Ecoengine paper
 ==============
 
-Repo for manuscript on the antweb database. To build a new manuscript
+Repo for manuscript on the ecoengine service. To build a new manuscript
 
 __Required R Packages:__
 
 ```r
-AntWeb
+ecoengine
 rmarkdown
 # Install with install.packages('package_name')
 ```
